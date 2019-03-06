@@ -1,0 +1,342 @@
+@charset "UTF-8";
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+/*для иконок*/
+body {
+  width: 100%;
+  margin: auto;
+  font-family: Arial, sans-serif; }
+
+.container {
+  max-width: 1200px;
+  margin: auto; }
+
+li {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  /* Отменяем подчеркивание у ссылки */ }
+
+.section-title {
+  color: #343434;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase; }
+
+header {
+  background-image: url("../img/header/bg_header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 100vh; }
+
+.header-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 70px; }
+
+.header-logo {
+  color: #fe504f;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -1.28px; }
+
+.header-menu {
+  display: inline-flex; }
+
+.header-menu-element {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: uppercase;
+  padding: 15px; }
+
+.header-menu-element:hover {
+  border-bottom: 2px solid #fe504f;
+  line-height: .55; }
+
+.header-title {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  max-width: 670px;
+  padding-top: 25px; }
+
+.header-title-text {
+  width: 514px;
+  height: 48px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 10px 0px; }
+
+.header-button {
+  width: 210px;
+  height: 60px;
+  background-color: #343434;
+  border-radius: 30px;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 20px 30px 300px 0px; }
+
+.header-button:hover {
+  background-color: #fe504f; }
+
+.container-services {
+  text-align: center;
+  margin: auto; }
+
+.section-title-text {
+  margin: auto;
+  padding: 25px;
+  max-width: 900px;
+  color: #adadad;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; }
+
+.services-element-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  align-content: center; }
+
+.services-element {
+  display: block;
+  width: 24%;
+  padding: 5px;
+  margin-bottom: 15px; }
+
+.services-line {
+  padding: 7px; }
+
+.contact-container {
+  background-image: url("../img/contact/bg-contact.jpg");
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat; }
+
+.contact-title {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 30px; }
+
+.contact-button {
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  display: block; }
+
+.about-wrap {
+  display: inline-flex;
+  flex-direction: row; }
+
+.about-block {
+  display: block;
+  max-width: 50%;
+  text-align: start; }
+
+.title-about {
+  padding-top: 10px; }
+
+.about-block-title {
+  color: #fe504f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 74px;
+  text-transform: uppercase; }
+
+.about-block-text {
+  color: #343434;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: start; }
+
+.team-gallery-wrap {
+  margin: auto;
+  padding-bottom: 35px; }
+
+.team-foto {
+  margin: -3px; }
+
+.team-foto:hover {
+  opacity: 0.2; }
+  .team-foto:hover .team-foto :after {
+    content: "Новьё!";
+    /* Добавляемый текст */
+    color: #fe504f;
+    /* Цвет текста */
+    background-color: #fe504f;
+    /* Цвет фона */
+    font-size: 90%;
+    /* Размер шрифта */
+    padding: 2px;
+    /* Поля вокруг текста */
+    opacity: 0.8; }
+
+.what-section {
+  background: url("../img/what/bg-what.jpg") no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+
+.fa-play-circle {
+  color: #fe504f;
+  padding-top: 90px; }
+
+.what-title {
+  max-width: 837px;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  padding: 30px; }
+
+.what-paragraph {
+  max-width: 1000px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: auto;
+  padding-bottom: 85px; }
+
+.news-gallery-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 0px; }
+
+.title-news {
+  text-align: center;
+  padding: 25px; }
+
+.news-paragraph {
+  text-align: center; }
+
+.news-block-element_1 {
+  display: flex;
+  flex-direction: row; }
+
+.news-block-element_3 {
+  display: flex;
+  flex-direction: row; }
+
+.news-title-block {
+  width: 236px;
+  color: #fe504f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  background: #343434;
+  padding: 30px; }
+  .news-title-block .news-title-block-paragraph {
+    width: 203px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px; }
+
+.news-title-block-data {
+  color: #fe504f;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+  text-align: right; }
+
+.contact-form-section {
+  background-image: url("../img/contact-form/bg-contact-form.jpg");
+  background-size: cover; }
+
+.contact-form-left {
+  width: 50%;
+  padding-top: 50px; }
+
+.contact-form-paragraph {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px; }
+
+.fa-contact {
+  color: #fe504f;
+  border: 1px solid #fe504f;
+  text-align: center;
+  padding: 10px;
+  width: 25px;
+  height: 25px;
+  margin: 15px; }
+
+.contact-form-text {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+footer {
+  background-color: #343434;
+  width: 100%; }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase; }
+
+.footer-social-icon {
+  color: #fe504f;
+  border-right: 1px solid #fe504f;
+  padding: 5px; }
+
+.fa-youtube {
+  border: none; }
+
+.news-section {
+  position: relative;
+  top: -450px; }
+
+.page-title-news {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 74px;
+  text-transform: none; }
+
+.post-container {
+  position: relative;
+  top: -400px; }
+
+.news-title-block-post {
+  position: relative;
+  top: -142px;
+  width: 450px; }
+
+.post-paragrapg-text {
+  padding: 15px; }
